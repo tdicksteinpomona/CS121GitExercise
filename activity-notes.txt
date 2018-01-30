@@ -1,0 +1,72 @@
+D. 1. git help gives you instructions on the most commonly used commands and modifiers for the commands.
+
+D. 2. git help -ag gives you all the git commands (not just the common ones like git help). It also gives guides and tutorials.
+
+E. 1. These commands are setting your name and email for when you're committing to github/interacting with git.
+
+E. 2. the purpose of --global uses the global configuration file instead of the system configuration file or the repositiry configuration file.
+
+F. 1. defaults write com.apple.finder AppleShowAllFiles YES
+
+F. 2. yes! "." and ".."
+
+F. 4. ".git"
+
+F. 5. The repository would die
+
+F. 6. Look for the hidden file called ".git"
+
+G. 1. Git status lets you know what branch you're on and what needs to be committed/has been changed.
+
+G. 2. It adds the file to the list of files that will next be pushed onto the repository.
+
+G. 3. Git commit pushes the files/changes onto the repository stored on the internet/github. The message allows you to record what changes have been made so you can log what was completed.
+
+G. 4. The . means add everything in this folder, so git add . adds eveything that has been changed to the commit queue.
+
+G. 5. Git commit brings up the VIM editor so you can type a multiline commit message and commits the changes.
+
+G. 6. You would use git commit because it allows you to have more complex formatting in your commit message.
+
+G. 7. Git log displays the log of commits.
+
+H. 1. Staged: files that have been added and are ready to commit (names.txt)
+      Unstaged: files that the repository knows about but have not been added (movies.txt)
+      Untracked: new files that the repository does not know about yet (books.txt)
+
+H. 2. Only the changes in names.txt will be committed
+
+H. 3. git add .
+
+H. 4. ¯\_(ツ)_/¯ (we looked it up: "git reset filename")
+
+H. 1. Unstaged file changes
+
+H. 2. Staged file changes
+
+H. 3. git reset names.txt
+      git add movies.txt
+      //yes
+
+H. 4. Oh no! There is a movies.txt that is staged, as well as a movies.txt that is unstaged! The old changes are staged, but the new changes are not staged, so the file is currently balancing multiple forms. 
+
+H. 5. names.txt has gone from a status of "modified" to "deleted" in the unstaged list
+
+H. 6. Now movies.txt is marked as deleted and last-movies.txt is shown under untracked files
+
+H. 7. git add .
+      git commit -m "have a wonderful day Section H"
+
+H. 8. The things that have been queued up to commit
+
+H. 9. It lets you choose which bad decisions to commit, and which not to commit.
+
+I. 1. It reverted to the version from the last commit.
+
+I. 1. It reverted to the version from our last commit.
+
+I. 2. Soft required a manual commit, hard did not require this.
+
+I. 3. If the list of commits is a stack, HEAD probably refers to the top of the stack.
+
+I. 4. HEAD^ moves the stack/pops the top off the stack?
